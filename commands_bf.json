@@ -1,0 +1,237 @@
+{
+  "led": {
+    "description": "configure leds",
+    "name": "led"
+  },
+  "serialpassthrough": {
+    "args": "<id> [baud] [mode] [DTR PINIO]: passthrough to serial",
+    "description": "passthrough serial data to port",
+    "name": "serialpassthrough"
+  },
+  "play_sound": {
+    "args": "[<index>]",
+    "name": "play_sound"
+  },
+  "flash_erase": {
+    "description": "erase flash chip",
+    "name": "flash_erase"
+  },
+  "mcu_id": {
+    "description": "id of the microcontroller",
+    "name": "mcu_id"
+  },
+  "bind": {
+    "description": "initiate binding for RX",
+    "name": "bind"
+  },
+  "servo": {
+    "description": "configure servos",
+    "name": "servo"
+  },
+  "tasks": {
+    "description": "show task stats",
+    "name": "tasks"
+  },
+  "sd_info": {
+    "description": "sdcard info",
+    "name": "sd_info"
+  },
+  "beeper": {
+    "args": "list\r\n\t<->[name]",
+    "description": "enable/disable beeper for a condition",
+    "name": "beeper"
+  },
+  "manufacturer_id": {
+    "args": "[manufacturer id]",
+    "description": "get / set the id of the board manufacturer",
+    "name": "manufacturer_id"
+  },
+  "resource": {
+    "description": "show/set resources",
+    "name": "resource"
+  },
+  "profile": {
+    "args": "[<index>]",
+    "description": "change profile",
+    "name": "profile"
+  },
+  "diff": {
+    "args": "[master|profile|rates|all] {defaults}",
+    "description": "list configuration changes from default",
+    "name": "diff"
+  },
+  "version": {
+    "description": "show version",
+    "name": "version"
+  },
+  "exit": {
+    "name": "exit"
+  },
+  "beacon": {
+    "args": "list\r\n\t<->[name]",
+    "description": "enable/disable Dshot beacon for a condition",
+    "name": "beacon"
+  },
+  "defaults": {
+    "args": "[nosave]",
+    "description": "reset to defaults and reboot",
+    "name": "defaults"
+  },
+  "rxfail": {
+    "description": "show/set rx failsafe settings",
+    "name": "rxfail"
+  },
+  "mixer": {
+    "args": "list\r\n\t<name>",
+    "description": "configure mixer",
+    "name": "mixer"
+  },
+  "mode_color": {
+    "description": "configure mode and special colors",
+    "name": "mode_color"
+  },
+  "name": {
+    "description": "name of craft",
+    "name": "name"
+  },
+  "smix": {
+    "args": "<rule> <servo> <source> <rate> <speed> <min> <max> <box>\r\n\treset\r\n\tload <mixer>\r\n\treverse <servo> <source> r|n",
+    "description": "servo mixer",
+    "name": "smix"
+  },
+  "status": {
+    "description": "show status",
+    "name": "status"
+  },
+  "motor": {
+    "args": "<index> [<value>]",
+    "description": "get/set motor",
+    "name": "motor"
+  },
+  "gpspassthrough": {
+    "description": "passthrough gps to serial",
+    "name": "gpspassthrough"
+  },
+  "color": {
+    "description": "configure colors",
+    "name": "color"
+  },
+  "aux": {
+    "args": "<index> <mode> <aux> <start> <end> <logic>",
+    "description": "configure modes",
+    "name": "aux"
+  },
+  "rc_smoothing_info": {
+    "description": "show rc_smoothing operational settings",
+    "name": "rc_smoothing_info"
+  },
+  "signature": {
+    "args": "[signature]",
+    "description": "get / set the board type signature",
+    "name": "signature"
+  },
+  "flash_write": {
+    "args": "<address> <message>",
+    "name": "flash_write"
+  },
+  "save": {
+    "description": "save and reboot",
+    "name": "save"
+  },
+  "bl": {
+    "description": "reboot into bootloader",
+    "name": "bl"
+  },
+  "flash_read": {
+    "args": "<length> <address>",
+    "name": "flash_read"
+  },
+  "timer": {
+    "description": "show timer configuration",
+    "name": "timer"
+  },
+  "dshotprog": {
+    "args": "<index> <command>+",
+    "description": "program DShot ESC(s)",
+    "name": "dshotprog"
+  },
+  "feature": {
+    "args": "list\r\n\t<+|->[name]",
+    "description": "configure features",
+    "name": "feature"
+  },
+  "get": {
+    "args": "[name]",
+    "description": "get variable value",
+    "name": "get"
+  },
+  "flash_info": {
+    "description": "show flash chip info",
+    "name": "flash_info"
+  },
+  "rateprofile": {
+    "args": "[<index>]",
+    "description": "change rate profile",
+    "name": "rateprofile"
+  },
+  "dump": {
+    "args": "[master|profile|rates|all] {defaults}",
+    "description": "dump configuration",
+    "name": "dump"
+  },
+  "map": {
+    "args": "[<map>]",
+    "description": "configure rc channel order",
+    "name": "map"
+  },
+  "adjrange": {
+    "description": "configure adjustment ranges",
+    "name": "adjrange"
+  },
+  "set": {
+    "args": "[<name>=<value>]",
+    "description": "change setting",
+    "name": "set"
+  },
+  "gyroregisters": {
+    "description": "dump gyro config registers contents",
+    "name": "gyroregisters"
+  },
+  "board_name": {
+    "args": "[board name]",
+    "description": "get / set the name of the board model",
+    "name": "board_name"
+  },
+  "help": {
+    "name": "help"
+  },
+  "escprog": {
+    "args": "<mode [sk/bl/ki/cc]> <index>",
+    "description": "passthrough esc to serial",
+    "name": "escprog"
+  },
+  "serial": {
+    "description": "configure serial ports",
+    "name": "serial"
+  },
+  "rxrange": {
+    "description": "configure rx channel ranges",
+    "name": "rxrange"
+  },
+  "dma": {
+    "description": "list dma utilisation",
+    "name": "dma"
+  },
+  "vtx": {
+    "description": "vtx channels on switch",
+    "name": "vtx"
+  },
+  "mmix": {
+    "description": "custom motor mixer",
+    "name": "mmix"
+  },
+  "msc": {
+    "description": "switch into msc mode",
+    "name": "msc"
+  }
+}
